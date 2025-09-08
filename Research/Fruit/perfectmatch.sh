@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-grep -f $1 $2 > $3
+grep -o -f $1 $2 > $3
